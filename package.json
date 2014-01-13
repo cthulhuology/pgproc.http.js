@@ -3,7 +3,7 @@
 	"name": "pgproc.http",
 	"license" : "MIT",
 	"description": "Maps HTTP request to Postgresql stored procedures",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"repository": {
 		"url": "http://github.com/cthulhuology/pgproc.http.js"
 	},
