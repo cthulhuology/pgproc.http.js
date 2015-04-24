@@ -1,22 +1,23 @@
 {
-	"author": "David Goehrig",
-	"name": "pgproc.http",
-	"license" : "MIT",
-	"description": "Maps HTTP request to Postgresql stored procedures",
-	"version": "0.0.3",
-	"repository": {
-		"url": "http://github.com/cthulhuology/pgproc.http.js"
-	},
-	"main": "./lib/pgproc.http.js",
-	"bin": { "pgproc" : "./bin/pgproc" },
-	"dependencies": { 
-		"express" : ">=3.4.3",
-		"pgproc" : ">=0.0.1"
-	},
-	"devDependencies": {},
-	"optionalDependencies": {},
-	"engines": {
-		"node": ">= 0.10"
-	}
+  "author": "David Goehrig",
+  "name": "pgproc.http",
+  "license": "MIT",
+  "description": "Maps HTTP request to Postgresql stored procedures",
+  "version": "0.0.4",
+  "repository": {
+    "url": "http://github.com/cthulhuology/pgproc.http.js"
+  },
+  "main": "./lib/pgproc.http.js",
+  "bin": {
+    "pgproc": "./bin/pgproc"
+  },
+  "dependencies": {
+    "express": ">=3.4.3",
+    "pgproc": ">=0.0.1"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">= 0.10"
+  }
 }
-
